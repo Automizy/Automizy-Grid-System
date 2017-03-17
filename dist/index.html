@@ -1,15 +1,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="ags.css">
-    <script src="vendor/requirejs/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="automizy-grid-system.css">
     <script src="vendor/automizy-project-initializer/automizy-project-initializer.js"></script>
-    <script src="ags.js"></script>
+    <script src="automizy-grid-system.js"></script>
     <script>
 
-        require([
-            "js/events/ready"
-        ], function () {
             $AGS.init().ready(function () {
 
                 /* VERSION 1 - easy to use */
@@ -60,8 +56,8 @@
                 }).content('<div style="background-color:pink">special pink box</div>').drawTo(row);
 
 
-            })
-        });
+            });
+
     </script>
 </head>
 <body>

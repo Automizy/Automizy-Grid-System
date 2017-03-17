@@ -36,6 +36,9 @@
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
+    vertical-align: top;
+    display:inline-block;
+    width:100%;
 }
 .ags-col-xs {
     float: left;

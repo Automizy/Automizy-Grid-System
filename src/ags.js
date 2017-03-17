@@ -1,14 +1,6 @@
 define.amd = false;
 require([
-    "js/core/core",
-
-    "js/core/init",
-    "js/core/runTheFunctions",
-    "js/core/loadPlugins",
-
-    "js/events/pluginsLoaded",
-    "js/events/layoutReady",
-    "js/events/ready",
+    "js/init/init",
 
     "js/elements/layout",
 
