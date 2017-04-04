@@ -9,5 +9,5 @@ require([
     "js/modules/col"
 
 ], function () {
-    console.log('%c AutomizyGridSystem loaded! ', 'background: #000000; color: #bada55; font-size:14px');
+    //console.log('%c AutomizyGridSystem loaded! ', 'background: #000000; color: #bada55; font-size:14px');
 });
