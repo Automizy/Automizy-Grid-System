@@ -1,4 +1,6 @@
 define([], function () {
-    window.AutomizyGridSystem = window.$AGS = new AutomizyProject({});
+    window.AutomizyGridSystem = window.$AGS = new AutomizyProject({
+        name:'automizy-grid-system'
+    });
     return $AGS;
 });
