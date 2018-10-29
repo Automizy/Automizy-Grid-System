@@ -192,7 +192,7 @@
 
             return t;
         }
-        else return t.d.margin;
+        return t.d.margin;
     };
 
     p.content = function (content) {
@@ -466,6 +466,15 @@
             return t;
         }
         return t.d.content;
+    };
+    p.margin = function (margin) {
+        var t = this;
+        if(typeof margin !== 'undefined'){
+            t.d.margin = margin;
+            t.widget().css('margin', t.d.margin);
+            return t;
+        }
+        return t.d.margin;
     };
     p.widget = function () {
         return this.d.$widget;

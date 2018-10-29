@@ -30,8 +30,8 @@
     "url": "git://github.com/automizy/automizy-grid-system.git"
   },
   "dependencies": {
-    "jquery": "2.*",
-	"requirejs": "https://github.com/jrburke/requirejs.git#master",
-	"automizy-project-initializer": "*"
+    "jquery": "https://github.com/jquery/jquery.git#2.*",
+    "requirejs": "https://github.com/jrburke/requirejs.git#master",
+    "automizy-project-initializer": "https://stash.automizy.com/scm/p8/automizy-project-initializer.git#master"
   }
 }

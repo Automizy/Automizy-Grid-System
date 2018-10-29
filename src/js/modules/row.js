@@ -37,7 +37,7 @@ define([
 
             return t;
         }
-        else return t.d.margin;
+        return t.d.margin;
     };
 
     p.content = function (content) {
